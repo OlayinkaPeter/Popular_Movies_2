@@ -7,7 +7,6 @@ Udacity Popular Movies, Stage 2 - Andela ALC
 <p align="center">
 <img src="https://github.com/OlayinkaPeter/Popular_Movies_2/blob/master/screenshots/Screenshot_20170718-061441.png" width="30%">
 <img src="https://github.com/OlayinkaPeter/Popular_Movies_2/blob/master/screenshots/Screenshot_20170718-061447.png" width="30%">
-<img src="https://github.com/OlayinkaPeter/Popular_Movies_2/blob/master/screenshots/Screenshot_20170718-061526.png" width="30%">
 <img src="https://github.com/OlayinkaPeter/Popular_Movies_2/blob/master/screenshots/Screenshot_20170718-061511.png" width="30%">
 </p>
 
