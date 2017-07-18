@@ -1,0 +1,15 @@
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="150dp"
+    android:id="@+id/posters_gridMovies"
+    android:gravity="center"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="0dp"
+    android:stretchMode="columnWidth"
+    tools:background="#abcdef"
+    android:layout_marginTop="@dimen/grid_item_margin_top"
+    tools:context="com.olayinkapeter.popularmovies2.activities.MyPosterDisplayFragment"
+    tools:showIn="@layout/activity_main"/>
+

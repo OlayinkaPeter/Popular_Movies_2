@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.olayinkapeter.popularmovies2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.olayinkapeter.popularmovies2.READ_DATABASE"/>
+    <uses-permission android:name="com.olayinkapeter.popularmovies2.WRITE_DATABASE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.olayinkapeter.popularmovies2.activities.MainActivity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:parentActivityName="com.olayinkapeter.popularmovies2.activities.MainActivity"
+            android:name="com.olayinkapeter.popularmovies2.activities.DetailActivity"
+            android:label="@string/title_activity_detail"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <!-- Content Provider for saving favorite movies -->
+        <provider
+            android:authorities="@string/content_authority"
+            android:multiprocess="true"
+            android:exported="true"
+            android:name=".data.MyMovieProvider"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_movie_data_error">Error fetching movie details! Check your network and try again!</string>
+</resources>
